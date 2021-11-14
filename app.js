@@ -32,7 +32,7 @@ let finalAnswer = 0;
 
                 storeValue();
                 break;
-            case "*":
+            case "x":
                 operator.splice(0, 1, this.innerHTML)
                 console.log(operator);
 
@@ -63,7 +63,7 @@ let finalAnswer = 0;
                 }
                 break;
             case ".":
-                if (valOne.includes(".")) {
+                if (valOne.includes(",")) {
                     alert("kamu tidak bisa menggunakan desimal lagi");
                 } else {
                     valOne.push(this.innerText);
