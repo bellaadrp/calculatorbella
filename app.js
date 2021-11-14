@@ -62,7 +62,7 @@ let finalAnswer = 0;
 
                 }
                 break;
-            case ".":
+            case ",":
                 if (valOne.includes(",")) {
                     alert("kamu tidak bisa menggunakan desimal lagi");
                 } else {
