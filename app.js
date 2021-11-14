@@ -123,8 +123,6 @@ function makeCalculation() {
 
 
     } else if (operator.length == 0) {
-
-        alert("kamu perlu memasukan angka terlebih dahulu");
         
     }
 
